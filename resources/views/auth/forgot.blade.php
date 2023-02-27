@@ -26,6 +26,9 @@
                 <div class="text-center">
                     <button type="submit" class="btn btn-color px-5 mb-5 w-100 sendBtn">Send Reset Password Link</button>
                 </div>
+                <div class="login-page-links">
+                    <p class="mb-0 login-register">Go back to<a class="mx-1" href="{{ route('loginForm') }}">Login</a></p>
+                </div>
             </form>
         </div>
     </div>
