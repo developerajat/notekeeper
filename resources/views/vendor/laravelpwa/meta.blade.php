@@ -33,7 +33,7 @@
 <script type="text/javascript">
     // Initialize the service worker
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('https://appdukaan.com/notes/serviceworker.js', {
+        navigator.serviceWorker.register('https://keepanything.com/serviceworker.js', {
             scope: '.'
         }).then(function (registration) {
             // Registration was successful

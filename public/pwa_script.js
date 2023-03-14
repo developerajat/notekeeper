@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('https://appdukaan.com/notes/serviceworker.js', {
+    navigator.serviceWorker.register('https://keepanything.com/serviceworker.js', {
         scope: '.'
     }).then(function(registration) {
         console.log('Laravel PWA: ServiceWorker registration successful with scope: ', registration.scope);

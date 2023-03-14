@@ -1,6 +1,6 @@
 var staticCacheName = "pwa-v" + new Date().getTime();
 var filesToCache = [
-    'https://appdukaan.com/notes/offline',
+    'https://keepanything.com/offline',
     '/css/app.css',
     '/js/app.js',
     '/images/icons/icon-72x72.png',
